@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+<div class="navbar">
+<nav role="navigation">
+<ul> 
+ <a href="index.html "style="text-decoration: none; color: black;"> <b>HOME</b></a> 
+ &nbsp;&nbsp;
+ <a href="myfiles.html "style="text-decoration: none; color: black;"> <b>MY FILES</b></a> 
+ &nbsp;&nbsp;
+ <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+ &nbsp;&nbsp;
+ <a href="downloads.html "style="text-decoration: none; color: black;"> <b>DOWNLOADS</b></a> 
+  &nbsp;&nbsp;
+    </ul>    
+    </nav>
+     </div>
+<div class="registerBox">
+<h1>Register</h1> 
+<form class="registerForm">
+<label for="email">Email:</label>
+<input id="emailRegister" placeholder="Email"><br><br>
+<label for="username">Username:</label>
+<input id="usernameRegister" placeholder="Username"><br><br>
+<label for="password">Password:</label>
+<input id="passwordRegister" placeholder="Password"><br><br>
+</form>
+<button class="registerButton" type="submit" onclick="register()" style="padding: 3px;">REGISTER</button>
+<br>
+<a class="loginLink" href="index.html">LOGIN</a>
+<br><br>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

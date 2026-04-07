@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="error.css">
+</head>
+
+<body onload="loadError()">
+ <div class="navbar">
+    <nav role="navigation">
+    <ul> 
+        <a href="index.html "style="text-decoration: none; color: black;"> <b>HOME</b></a> 
+        &nbsp;&nbsp;
+        <a href="myfiles.html "style="text-decoration: none; color: black;"> <b>MY FILES</b></a> 
+        &nbsp;&nbsp;
+        <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+        &nbsp;&nbsp;
+         <a href="downloads.html "style="text-decoration: none; color: black;"> <b>DOWNLOADS</b></a> 
+        &nbsp;&nbsp;
+        <button onclick="logout()">LOGOUT</button>
+
+    </ul>    
+    </nav>
+     </div>
+
+     <div class = "error">
+   <h1>Invalid File Format OR File TOO BIG!</h1> 
+   <p>Files must be .pdf or mp4. Files must be no greater than 20mb!</p>
+   <br>
+   <h1>Click Upload to TRY AGAIN!</h1> 
+
+   <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+     </div>
+  
+     <script src="script.js"></script>
+
+</body>
+
+</html>

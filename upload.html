@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+
+<body onload="loadMyUpload()">
+ <div class="navbar">
+    <nav role="navigation">
+    <ul> 
+        <a href="index.html "style="text-decoration: none; color: black;"> <b>HOME</b></a> 
+        &nbsp;&nbsp;
+        <a href="myfiles.html "style="text-decoration: none; color: black;"> <b>MY FILES</b></a> 
+        &nbsp;&nbsp;
+        <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+        &nbsp;&nbsp;
+         <a href="downloads.html "style="text-decoration: none; color: black;"> <b>DOWNLOADS</b></a> 
+        &nbsp;&nbsp;
+        <button onclick="logout()">LOGOUT</button>
+
+    </ul>    
+    </nav>
+     </div>
+
+    <div class = "upload">
+   <h1>Upload file here:</h1> 
+   <p>Files must be: .pdf OR .mp4</p>
+   <p>Files must be no greater than 20mb</p>
+    <form action="/api/upload" method="post" enctype="multipart/form-data">
+<br>
+  <input id ="uploadBox" type ="text" name="filename" placeholder="Name your image, choose file, then click Upload"
+        style="width: 300px; padding: 8px;">
+  <input type="file" name="userFile" />
+  <br>
+  <br>
+  <br>
+ <button type="submit" style=" border-radius: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;width: 100px; height:50px; padding: 8px;">Upload</button>
+  </form>
+</div>
+
+     <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+  

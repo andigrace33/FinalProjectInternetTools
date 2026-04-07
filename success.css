@@ -1,0 +1,53 @@
+.navbar {
+position:fixed;
+justify-content: space-around;
+font-size: large;
+background-color: #ffb3ed;
+padding: 20px 10px;
+width: 97%;
+height: 50px;
+text-align:center;
+color: #000000;
+text-decoration: none;
+margin: 3px; 
+border-style:outset;
+border-radius:20%;
+border-color: #9f7498;
+border-width: 10px;
+}
+
+
+body {
+background-color: #eca2ff;
+margin: 0;
+padding: 0;
+background: linear-gradient(to top, #352604, #ff00bf);
+display: flex;
+justify-content: center;
+height: 100vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.loginBox {
+margin: 150px;
+width: 400px;
+height: 300px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size:large;
+font-weight: bold;
+border-style:outset;
+border-radius: 25%;
+border-color: #ffe4fb;
+border-width: 5px;
+background-color: #ffb3ed;
+padding: 20px 30px;
+}
+
+.success {
+    padding-top: 120px;
+}

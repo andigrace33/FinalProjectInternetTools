@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="downloads.css">
+</head>
+
+<body onload="loadMyDownloads()">
+ <div class="navbar">
+    <nav role="navigation">
+    <ul> 
+        <a href="index.html "style="text-decoration: none; color: black;"> <b>HOME</b></a> 
+        &nbsp;&nbsp;
+        <a href="myfiles.html "style="text-decoration: none; color: black;"> <b>MY FILES</b></a> 
+        &nbsp;&nbsp;
+        <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+        &nbsp;&nbsp;
+         <a href="downloads.html "style="text-decoration: none; color: black;"> <b>DOWNLOADS</b></a> 
+        &nbsp;&nbsp;
+        <button onclick="downloadLogout()">LOGOUT</button>
+
+    </ul>    
+    </nav>
+     </div>
+
+     <div class = "downloads">
+   <h1>Welcome to downloads</h1> 
+<hr>
+
+<div class="button">
+<button onclick="loadStudents()">Files</button>
+</div>
+
+<ul id="students"></ul>
+<br>
+
+<script src="downloads.js"></script>
+
+    </div>
+
+
+</body>
+
+</html>

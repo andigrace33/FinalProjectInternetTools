@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+ <div class="navbar">
+    <nav role="navigation">
+    <ul> 
+        <a href="index.html "style="text-decoration: none; color: black;"> <b>HOME</b></a> 
+        &nbsp;&nbsp;
+        <a href="myfiles.html "style="text-decoration: none; color: black;"> <b>MY FILES</b></a> 
+        &nbsp;&nbsp;
+        <a href="upload.html "style="text-decoration: none; color: black;"> <b>UPLOAD</b></a> 
+        &nbsp;&nbsp;
+         <a href="downloads.html "style="text-decoration: none; color: black;"> <b>DOWNLOADS</b></a> 
+        &nbsp;&nbsp;
+    </ul>    
+    </nav>
+     </div>
+<div class="loginBox">
+  <br>
+<h1>Welcome to File Hosting</h1> 
+<p>Login or click register to sign up</p> 
+<form class="loginForm">
+<label for="email">Email:</label>
+<input id="emailLogin" placeholder="Email"><br><br>
+<label for="username">Username:</label>
+<input id="usernameLogin" placeholder="Username"><br><br>
+<label for="password">Password:</label>
+<input id="passwordLogin" placeholder="Password"><br><br>
+</form>
+<button class="loginButton" type="submit" onclick="login()" style="padding: 3px;">LOGIN</button>
+<br>
+<a class="registerLink" href="register.html">REGISTER</a>
+<br><br>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
